@@ -1,0 +1,179 @@
+body {
+    color: #000000;
+    font-family: "lato";
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.header-title {
+    color: #005FA3;
+    font-family: 'Merriweather';
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 900;
+
+}
+
+.header-contact-link {
+    text-decoration: none;
+}
+
+.header-contact-text {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.header-nav-link {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.desc {
+    background-color: #2c2c2c;
+    background-image: url(../img/first-screen-bkg.jpg);
+}
+
+.desc-title,
+.desc-link {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 66px;
+    font-family: 'Merriweather';
+}
+
+.desc-link {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 34px;
+    background: #005FA3;
+
+}
+
+.service {
+    background: #EBEBEB;
+}
+
+.section-title {
+    color: #BDBDBD;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 33px;
+}
+
+.section-sub-title {
+    color: #1C1C1C;
+    font-family: 'Merriweather';
+    line-height: 69px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.section-sub-title-blue {
+    color: #005FA3;
+}
+
+.service-item-link {
+    background-image: url(../img/services-bkg.jpg);
+    text-decoration: none;
+}
+
+
+.service-item-title {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 900;
+    line-height:24px;
+}
+
+.button {
+    color: #FFF;
+    font-weight: 400;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit; 
+    background-color: #005FA3;
+    border: none; 
+}
+
+.review-item {
+    background-color: #EBEBEB;
+}
+
+.review-item-text {
+    color:#000000;
+    ;
+}
+
+.review-item-author {
+    color: #000;
+    font-weight: 900;
+}
+
+.review-item-position {
+    color: #4F4F4F;
+    font-weight: 400;
+    line-height: 19px;
+    font-size: 14px;
+
+}
+
+.about-item {
+    background: #EBEBEB;
+}
+
+.about-item-num {
+    line-height: 66px;
+    text-align: left;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.about-item-header {
+    font-weight: 700;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.about-item-link {
+    line-height: 17px;
+    font-size: 14px;
+    font-weight:700;
+}
+
+.advantage {
+    background-color: #EBEBEB;
+}
+
+.advantage-desc {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+
+}
+
+.footer-bkg {
+    background-color: #07090b;
+    color: #FFF;
+    background-image: url(../img/form-bkg.jpg);
+    
+}
+
+.white {
+    color:#FFF;
+}
+
+.footer-contact-text {
+    line-height: 29px;
+    font-size: 21px;
+}
