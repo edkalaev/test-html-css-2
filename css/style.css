@@ -8,6 +8,19 @@ body {
 
 }
 
+.container {
+    width: 1116px;
+    margin: 0 auto;
+}
+
+.display-none {
+    display:none;
+}
+
+.header {
+    padding: 22px 0 31px;
+}
+
 .header-title {
     color: #005FA3;
     font-family: 'Merriweather';
@@ -40,6 +53,11 @@ body {
 .desc {
     background-color: #2c2c2c;
     background-image: url(../img/first-screen-bkg.jpg);
+    padding: 170px 0;
+}
+
+.desc-title {
+    margin: 0 0 131px;
 }
 
 .desc-title,
@@ -57,18 +75,27 @@ body {
     font-weight: 400;
     line-height: 34px;
     background: #005FA3;
+    width: 333px;
+    min-height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .service {
     background: #EBEBEB;
+    padding: 140px 0;
 }
+
+
 
 .section-title {
     color: #BDBDBD;
     font-size: 24px;
     font-weight: 900;
     line-height: 33px;
+    margin: 0 0 40px;
 }
 
 .section-sub-title {
@@ -77,15 +104,25 @@ body {
     line-height: 69px;
     font-size: 48px;
     font-weight: 900;
+    margin: 0 0 60px;
 }
 
 .section-sub-title-blue {
-    color: #005FA3;
+    color: #005FA3
+}
+
+.service-subtitle {
+    margin: 0 0 102px;
 }
 
 .service-item-link {
     background-image: url(../img/services-bkg.jpg);
+    background-size: cover;
     text-decoration: none;
+    width: 350px;
+    min-height: 360px;
+    display:block;
+    padding: 45px;
 }
 
 
@@ -106,13 +143,18 @@ body {
     border: none; 
 }
 
+.review {
+    padding: 174px 0 120px;
+}
+
 .review-item {
     background-color: #EBEBEB;
+    padding: 45px 95px;
 }
 
 .review-item-text {
     color:#000000;
-    ;
+    margin: 0 0 58px;
 }
 
 .review-item-author {
@@ -125,34 +167,118 @@ body {
     font-weight: 400;
     line-height: 19px;
     font-size: 14px;
-
 }
+
+.review-button {
+    width: 270px;
+    min-height: 60px;
+}
+
+.review-slider-button {
+    width: 10px;
+    height: 10px;
+    background-color: #005FA3;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    opacity: 0.4;
+}
+
+
+.review-slider-arrow {
+    width: 60px;
+    height: 60px;
+    opacity: 0.2;
+    background-color: #005FA3;
+    padding: 0;
+    border: 0;
+}
+
+.review-slider-button-active {
+    opacity: 1;
+}
+
+.about{
+    padding: 140px 0 140px;
+}
+
+.flex {
+    display:flex;
+}
+
+.half-width {
+    width:50%;
+}
+
+.wrp-padding {
+    padding: 0 0 0 15px;
+}
+
+.about-subtitle {
+    margin: 0 0 60px;
+}
+
+.about-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 
 .about-item {
     background: #EBEBEB;
+    width: 255px;
+    height: 255px;
+    padding: 30px 40px 40px;
+    box-sizing: border-box;
 }
 
-.about-item-num {
-    line-height: 66px;
-    text-align: left;
-    font-size: 55px;
-    font-weight: 900;
+.about-item:nth-of-type(n+3) {
+    margin: 30px 0 0 0;
 }
+
+.about-item-active {
+    background: #005FA3;
+    color:#FFFFFF;
+}
+
+.about-item-active a {
+    color: #FFFFFF;
+}
+
 
 .about-item-header {
     font-weight: 700;
     line-height: 18px;
     font-size: 14px;
+    margin: 0 0 47px;
 }
 
 .about-item-link {
     line-height: 17px;
     font-size: 14px;
     font-weight:700;
+    color: #005FA3;
+}
+
+.about-item-num {
+    line-height: 66px;
+    font-size: 55px;
+    font-weight: 900;
+    margin: 0 0 30px; 
+}
+
+.about-desc{
+    width: 445px;
 }
 
 .advantage {
     background-color: #EBEBEB;
+    padding: 102px 0 116px; 
+}
+
+.advantage-sub-title {
+    margin: 0 0 111px; 
 }
 
 .advantage-desc {
@@ -162,11 +288,11 @@ body {
 
 }
 
+
 .footer-bkg {
     background-color: #07090b;
     color: #FFF;
     background-image: url(../img/form-bkg.jpg);
-    
 }
 
 .white {
@@ -176,4 +302,49 @@ body {
 .footer-contact-text {
     line-height: 29px;
     font-size: 21px;
+    color:#FFF;
 }
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer-text {
+    line-height: 19px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer-wrp {
+    padding: 122px 0 140px;
+}
+
+.footer-subtitle {
+    margin: 0 0 60px; 
+}
+
+.footer-questions{
+    margin: 0 0 80px;
+}
+
+.footer-about {
+    padding: 50px 0;
+}
+
+
+.clients {
+    padding: 85px 0 92px; 
+    background:#EBEBEB;
+    
+}
+
+.clients-sub-title {
+    margin: 0 0 48px;
+}
+
+.clients-title {
+    margin: 0 0 43px;
+}
+
+
+
