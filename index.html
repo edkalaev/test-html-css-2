@@ -89,7 +89,8 @@
                     <h2 class="section-title">О нас</h2>
                     <p class="section-sub-title about-subtitle">Компания <span
                             class="section-sub-title-blue">ИвановПром</span></p>
-                    <p class="about-desc">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
+                    <p class="about-desc">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                        Lorem
                         Ipsum
                         является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий
                         безымянный
@@ -132,7 +133,7 @@
             <div class="container">
                 <h2 class="section-title clients-sub-title">Наши клиенты</h2>
                 <p class="section-sub-title clients-title">С нами работают</p>
-                <ul>
+                <ul class="clients-list">
                     <li><img class="client-photo" src="./img/client.png" alt="client"></li>
                     <li><img class="client-photo" src="./img/client.png" alt="client"></li>
                     <li><img class="client-photo" src="./img/client.png" alt="client"></li>
@@ -205,17 +206,17 @@
             <div class="container">
                 <h2 class="section-title advantage-title">Наши преимущества</h2>
                 <p class="section-sub-title advantage-sub-title">Мы предлагаем</p>
-                <ul>
+                <ul class="advantage-list">
                     <li>
-                        <img src="./img/medal.svg" alt="medal">
+                        <img class="advantage-photo" src="./img/medal.svg" alt="medal">
                         <p class="advantage-desc">Качество</p>
                     </li>
                     <li>
-                        <img src="./img/run-man.svg" alt="run-man">
+                        <img class="advantage-photo" src="./img/run-man.svg" alt="run-man">
                         <p class="advantage-desc">Оперативность</p>
                     </li>
                     <li>
-                        <img src="./img/expert.svg" alt="expert">
+                        <img class="advantage-photo" src="./img/expert.svg" alt="expert">
                         <p class="advantage-desc">Экспертность</p>
                     </li>
                 </ul>
@@ -224,31 +225,30 @@
     </main>
     <footer class="footer">
         <div class="footer-bkg">
-            <div class="container">
-                <div class="footer-wrp">
-                    <div>
-                        <h2 class="footer-subtitle section-sub-title white">Связь с нами</h2>
-                        <p class="footer-questions">У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!
-                        </p>
-                        <ul>
-                            <li>
-                                <a href="tel:71112223344">
-                                    <img src="./img/phone.svg" alt="phone">
-                                    <span class="footer-contact-text">+7 (111) 222-33-44</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="mailto:order@buhone.ru">
-                                    <img src="./img/envelope-blue.svg" alt="envelope-blue">
-                                    <span class="footer-contact-text">order@buhone.ru</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        форма
-                        <button class="button">Отправить сообщение</button>
-                    </div>
+            <div class="container footer-wrp flex">
+                <div class="half-width">
+                    <h2 class="footer-subtitle section-sub-title white">Связь с нами</h2>
+                    <p class="footer-questions">У вас остались вопросы? Напишите нам - мы ответим в ближайшее
+                        время!
+                    </p>
+                    <ul class="footer-contacts">
+                        <li>
+                            <a href="tel:71112223344">
+                                <img src="./img/phone.svg" alt="phone">
+                                <span class="footer-contact-text">+7 (111) 222-33-44</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:order@buhone.ru">
+                                <img src="./img/envelope-blue.svg" alt="envelope-blue">
+                                <span class="footer-contact-text">order@buhone.ru</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="half-width">
+                    форма
+                    <button class="button">Отправить сообщение</button>
                 </div>
             </div>
         </div>
