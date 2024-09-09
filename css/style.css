@@ -50,6 +50,30 @@ body {
     line-height: 17px;
 }
 
+.header-flex {
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-contacts-flex {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-logo-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header-logo {
+    width: 40px;
+    height: 40px;
+    margin:0;
+    padding:0;
+}
+    
 .desc {
     background-color: #2c2c2c;
     background-image: url(../img/first-screen-bkg.jpg);
@@ -121,7 +145,10 @@ body {
     text-decoration: none;
     width: 350px;
     min-height: 360px;
-    display:block;
+    display:flex;
+    align-items:flex-end;
+    padding: 45px;
+    box-sizing: border-box;
 }
 
 
@@ -133,11 +160,14 @@ body {
 }
 
 .service-list {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
 }
 
+.service-item:nth-of-type(n+4) {
+    margin: 30px 0 0;
+}
 
 .button {
     color: #FFF;
@@ -291,15 +321,25 @@ body {
 
 .advantage-list {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
-    text-align: center;
+    /* text-align: center; */
 }
 
+.advantage-item {
+    width: 348px;
+    min-height: 316px;
+    padding: 80px 0 37px;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    box-sizing:border-box;
+}
 
 .advantage-photo{
     width: 132px;
     height: 126px;
+    margin: 0 0 20px;
 }
 
 /* .item-advantage {
@@ -356,15 +396,13 @@ body {
 
 .footer-questions{
     margin: 0 0 80px;
+    width: 445px;
 }
 
 .footer-about {
     padding: 50px 0;
-}
-
-.footer-contacts {
-    display:grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    display:flex;
+    justify-content: space-between;
 }
 
 .footer-list-item-1 {
@@ -385,9 +423,10 @@ body {
 }
 
 .clients-list {
-    display:grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
 }
+
 
 
