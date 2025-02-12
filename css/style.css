@@ -13,6 +13,8 @@ body {
     margin: 0 auto;
 }
 
+
+
 .display-none {
     display:none;
 }
@@ -128,7 +130,6 @@ body {
     line-height: 69px;
     font-size: 48px;
     font-weight: 900;
-    margin: 0 0 60px;
 }
 
 .section-sub-title-blue {
@@ -176,12 +177,26 @@ body {
     font-size: inherit;
     line-height: inherit; 
     background-color: #005FA3;
-    border: none; 
+    border: none;
+    box-sizing:border-box;
+    padding: 0;
 }
 
 .review {
     padding: 174px 0 120px;
 }
+
+.review-title-wrp {
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 0 67px;
+} 
+
+/* .review-list {
+    display:flex;
+    justify-content: space-between;
+} */
 
 .review-item {
     background-color: #EBEBEB;
@@ -360,6 +375,61 @@ body {
 } */
 
 
+.form-contact-wrp {
+    display:flex;
+    justify-content: space-between;
+    margin: 0 0 35px;
+}
+
+.input-label {
+    display:block;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 22.08px;
+    margin: 0 0 15px; 
+}
+
+input {
+    width:255px;
+    padding: 4px 0 15px;
+    border:none;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 29px;
+    color:#FFF;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #BDBDBD;
+}
+
+textarea {
+    padding: 4px 0 15px;
+    width: 100%;
+    min-height: 105px;
+    resize:none;
+    border:none;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: transparent;
+    box-sizing:border-box; 
+    margin: 0 0 50px;
+    font-family: inherit;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 29px;
+    color:#FFF;
+}
+
+.form-button {
+    display:block;
+    width: 270px;
+    min-height: 60px;
+    margin: 0 0 0 auto;
+}
+
 .footer-bkg {
     background-color: #07090b;
     color: #FFF;
@@ -429,4 +499,56 @@ body {
 }
 
 
+.popup {
+    background-color: #000000B2;
+}
 
+.popup-container {
+    width: 733px;
+    min-height: 636px;
+    margin: 0 auto;
+    background-color: #262626;
+}
+
+.form-container {
+    width: 543px;
+    margin: 0 auto;
+}
+
+.review-popup-wrp {
+    display:flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    /* align-items:flex-end; */
+}
+
+.review-popup-wrp-radio {
+    display:flex;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items:flex-end;
+    gap:33px;
+}
+
+.style-paragraph {
+    margin:0 auto;
+} 
+
+
+.radio-review {
+    display: flex;
+}
+
+.radio-label {
+    display:flex;
+    align-items:center;
+}
+
+/* .radio-label input {
+    margin-right: 5px;
+} */
+
+input[type="radio"] {
+    width: 11px;
+    height: 11px;
+}
